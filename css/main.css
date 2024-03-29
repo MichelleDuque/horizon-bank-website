@@ -32,3 +32,18 @@ body{
 .btn{
     padding: 1rem;
 }
+
+
+/* Hero */
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.content{
+    max-width: 500px;
+}
+
+#hero{
+    height: 900px;
+}
