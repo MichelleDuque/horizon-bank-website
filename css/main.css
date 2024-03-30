@@ -44,7 +44,7 @@ body{
     max-width: 500px;
 }
 
-#hero{
+section{
     height: 900px;
 }
 
@@ -52,8 +52,32 @@ body{
     .navbar{
         position: relative !important;
     }
+
+    section{
+        height: unset;
+    }
 }
 
 .navbar-toggler:focus{
     box-shadow: none;
 } 
+
+
+
+/* Bank Info */
+
+.step{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.step::after{
+    content: "";
+    border-right: 1px solid black;
+    height: 60px;
+    position: absolute;
+    top: 34px;
+    opacity: .2;
+}
