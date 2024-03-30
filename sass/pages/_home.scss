@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as p;
+
+
+body{
+    font-family: p.$body-font-family;
+}
+
+
+section{
+    height: 900px;
+}
+
+
+@media (max-width:992px){
+    .navbar{
+        position: relative !important;
+    }
+
+    section{
+        height: unset;
+    }
+
+    .w-75{
+        width: 100% !important;
+    }
+}
