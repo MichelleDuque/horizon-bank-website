@@ -1,0 +1,14 @@
+@use '../abstracts/variables' as c;
+
+.cta-form {
+    max-width: 480px;
+}
+
+.cta-form .form-control {
+    min-height: 82px;
+}
+
+.cta-form .btn {
+    top: 12px;
+    right: 12px;
+}

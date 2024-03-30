@@ -1,0 +1,16 @@
+
+@use '../abstracts/variables' as h;
+
+.bg-primary{
+    background-color: h.$primary !important;
+}
+
+.content{
+    max-width: 500px;
+}
+
+
+
+.navbar-toggler:focus{
+    box-shadow: none;
+} 
