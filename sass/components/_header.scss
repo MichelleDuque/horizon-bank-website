@@ -3,7 +3,10 @@
 
 .navbar{
     min-height: 98px;
+    z-index: 1000;
 }
+
+
 
 .btn-primary{
     background-color: m.$primary;
@@ -11,8 +14,8 @@
 }
 
 .btn-primary:hover{
-    background-color: m.$primary;
-    border-color: m.$primary;
+    background-color: #008DDA;
+    border-color:#008DDA;
 }
 
 .btn-light {
